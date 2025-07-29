@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <h1>My todo application</h1>
+    <div id="main">
+        <label for="taskText">Enter Your Task :</label><br>
+        <input type="text" name="" id="taskText"><br>
+        <button id="addTask" style="background-color: green; color: white;">Add Task</button>
+        <button id="clearAll">Clear All</button>
+    </div>
+    <div id="showTask"></div>
+    <div id="editForm">
+        <h1 style="text-transform: uppercase;">Update Your task</h1>
+        <input type="text" name="" id="updatedValue">
+        <button id="updateBtn">Update</button>
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js" type="module"></script>
+</body>
+
+</html>
