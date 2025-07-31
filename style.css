@@ -191,7 +191,7 @@ button:hover {
   background: linear-gradient(135deg, #e0eafc, #cfdef3);
   border-radius: 12px;
   padding: 20px;
-  width: 270px;
+  width: 350px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: 0.3s ease;
   position: relative;
@@ -211,8 +211,8 @@ button:hover {
 }
 
 .btn {
-  padding: 6px 12px;
-  font-size: 0.9rem;
+  padding: 9px 15px;
+  font-size: 16px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -222,6 +222,7 @@ button:hover {
 .edit-btn {
   background-color: #ffc107;
   color: #fff;
+  margin-left: 190px;
 }
 .edit-btn:hover {
   background-color: #e0a800;
@@ -235,12 +236,12 @@ button:hover {
   background-color: #c82333;
 }
 
-.done-btn {
+/* .done-btn {
   background-color: #28a745;
   color: #fff;
 }
 .done-btn:hover {
   background-color: #218838;
-}
+} */
 
 

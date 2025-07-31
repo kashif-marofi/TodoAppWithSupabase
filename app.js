@@ -72,11 +72,12 @@ function renderTasks() {
         <div class="task-buttons">
           <button class="btn edit-btn" onclick="editTask(${index})">Edit</button>
           <button class="btn delete-btn" onclick="deleteTask(${index})">Delete</button>
-          <button class="btn done-btn" onclick="markDone(${index})">Done</button>
+
         </div>
       </div>
     `;
-
+    // Done button
+    // <button class="btn done-btn" onclick="markDone(${index})">Done</button>
     showTask.appendChild(div);
   });
 }
