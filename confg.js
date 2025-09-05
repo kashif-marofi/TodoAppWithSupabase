@@ -1,4 +1,0 @@
-const supabaseUrl = 'https://uaqklzekprqfqdkdjtyk.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVhcWtsemVrcHJxZnFka2RqdHlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM1MjEyNDIsImV4cCI6MjA2OTA5NzI0Mn0.bM47ySm9DG7fpqbR-3C5giAG1BMqyOIV6UYhEZmIrFg'
-export const client = supabase.createClient(supabaseUrl, supabaseKey)
- 
